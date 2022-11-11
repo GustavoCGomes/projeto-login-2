@@ -64,7 +64,11 @@ div#formulario > p {
 form > div.campo {
     display: block;
     width: 100%;
-    
+    margin: 5px 0px;
+}
+
+div.campo label  {
+    display: none;
 }
 
 form > input[type="submit"] {
@@ -92,6 +96,10 @@ form > a.botao {
     height: 40px;
     color: #0B0454;
     text-decoration: none;
+}
+
+form a.botao:hover {
+    text-decoration: underline;
 }
 
 form  > a.botao > i {
