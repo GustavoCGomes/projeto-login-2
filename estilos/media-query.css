@@ -11,11 +11,12 @@ Grandes telas: acima de 1200px
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
+    body { /*CONFIGURAÇÃO PARATABLET*/
         background:linear-gradient(to top,#550CF2,#4703A6,#6C0CF2)
     }
     section#login {
         width: 80vw;
+        
     }
     section#login > div#imagem {
         float: left;
@@ -25,7 +26,9 @@ Grandes telas: acima de 1200px
     section#login > div#formulario {
         float: right;
         width: 60%;
+        padding: 100px 10px;
     }
+
     div#formulario > h1 {
         font-size: 2em;
     }
@@ -36,7 +39,7 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width:992px) {
-    body {
+    body { /*CONFIGURAÇÃO DESKTOP*/
         background:linear-gradient(to top,#550CF2,#4703A6,#6C0CF2)
     }
     section#login {
@@ -50,6 +53,7 @@ Grandes telas: acima de 1200px
     section#login > div#formulario {
         float: right;
         width: 50%;
+        padding: 100px 10px;
     }
 
     div#formulario > h1 {
